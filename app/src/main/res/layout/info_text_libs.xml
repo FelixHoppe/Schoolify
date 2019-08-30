@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/info_textview_libs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text=
+        "
+\nGoogle's interne Libraries:
+\n
+\n'commons-io:commons-io:2.4'
+\n'com.google.code.gson:gson:2.8.0'
+\n'com.android.support:appcompat-v7:26.1.0'
+\n'com.android.support.constraint:constraint-layout:1.0.2'
+\n'com.android.support:design:26.1.0'
+\n'com.android.support:support-v4:26.1.0'
+\n'junit:junit:4.12'
+\n'com.android.support.test:runner:1.0.1'
+\n'com.android.support.test.espresso:espresso-core:3.0.1'
+\n'com.android.support:cardview-v7:26.1.0'
+\n'com.android.support:recyclerview-v7:26.1.0'
+\n
+\n
+\nExterne Libraries:
+\n
+\n'de.codecrafters.tableview:tableview:2.8.0'
+\n'petrov.kristiyan:colorpicker-library:1.1.8'
+\n'com.github.blackfizz:eazegraph:1.2.2@aar'
+\n'com.github.loopeer:ScrollTableView:1.0'
+\n'com.github.faruktoptas:FancyShowCaseView:1.0.1'
+\n'com.nineoldandroids:library:2.4.0'
+\n'com.github.MAXDeliveryNG:slideview:1.1.0'
+\n
+\n
+\nIcons:
+\n
+\nicons8.com
+\n
+\nFür detaillierte Informationen besuche\n https://app.felix-h.de/licence
+\n
+        "
+        android:textAlignment="center" />
+
+</LinearLayout>

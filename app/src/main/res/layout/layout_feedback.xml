@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/feedback_textView"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_weight="1"
+        android:text="
+\n
+\nFalls du Verbesserungsvorschläge hast,
+\nkannst du mir diese gerne unter
+\nappsupport@felix-h.de
+\nzukommen lassen.
+\n
+        "
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/alles_klar"
+        android:layout_width="151dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/feedback_textView"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:text="Alles klar" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alles_klar"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

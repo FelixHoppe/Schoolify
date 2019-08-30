@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="\nDie Benachrichtigungsoption wird aufgrund einer Fehlfunktion erst im nächsten Update herauskommen.
+        \n
+\nSobald dies der Fall ist, erhalten Sie eine Benachrichtigung
+\n"
+        android:textAlignment="center" />
+</RelativeLayout>

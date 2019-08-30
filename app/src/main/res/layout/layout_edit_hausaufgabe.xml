@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Bearbeiten"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="erledigt"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/fName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:ems="10"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/lk_CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Wichtig" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="ändern" />
+
+    <EditText
+        android:id="@+id/ha_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:hint="Hausaufgabe hier eingeben" />
+
+</LinearLayout>

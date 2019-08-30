@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Bearbeiten"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="löschen"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/fName"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:ems="10"
+        android:focusable="false" />
+
+    <CheckBox
+        android:id="@+id/lk_CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/leistungskurs_falls_bereits_oberstufe" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="ändern" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="-46dp"/>
+
+    <EditText
+        android:id="@+id/number3"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="-46dp"/>/>
+
+    <EditText
+        android:id="@+id/number4"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="-46dp"/>/>
+
+</LinearLayout>

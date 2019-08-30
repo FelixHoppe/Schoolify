@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.felix_h.schulify.StartActivity">
+
+
+    <ng.max.slideview.SlideView
+        android:id="@+id/slideView"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="99dp"
+        app:sv_buttonBackgroundColor="@color/colorAccent"
+        app:sv_buttonImage="@drawable/slider_btn"
+        app:sv_slideBackgroundColor="@color/sv_button_color_default"
+        app:sv_slideText="Aktivieren"
+        app:sv_slideTextColor="@color/colorAccent"
+        app:sv_strokeColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:textSize="15sp"
+        android:text="
+\nDamit die App korrekt ausgeführt werden kann, benötigt Sie deine Erlaubnis, um Dateien wie Hausaufgaben, Schulnoten sowie generelle Einstellungen auf deinem Smartphone zu speichern.
+\n
+"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-135dp"
+        android:text="\nVielen Dank, dass du Schulify installiert hast!\n"
+        android:textAllCaps="false"
+        android:textColor="@color/black_de"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+
+
+</RelativeLayout>

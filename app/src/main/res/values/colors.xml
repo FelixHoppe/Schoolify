@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262938</color>
+    <color name="colorPrimaryDark">#4a4a4a</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTransparentWhite">#CCCCCC</color>
+
+    <color name="sv_slider_color_default">#3F51B5</color>
+    <color name="sv_button_color_default">#FFFFFF</color>
+    <color name="sv_stroke_color_default">#FFFFFF</color>
+
+
+    <color name="colorActionBar">#2ecc71</color>
+
+    <color name="purple_500">#9C27B0</color>
+    <color name="deep_purple_500">#673AB7</color>
+    <color name="indigo_500">#3F51B5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="light_blue_500">#03A9F4</color>
+    <color name="orange_500">#FF8000</color>
+
+    <color name="colorPrimaryOrange">#FFC107</color>
+    <color name="colorPrimaryDarkOrange">#FFA000</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+
+
+    <color name="colorPrimaryText">#050505</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+
+
+    <color name="table_text_select_color">@android:color/white</color>
+    <color name="table_text_normal_color">#2B2B2B</color>
+    <color name="table_text_unable_color">#CBCBCB</color>
+    <color name="table_item_bg_normal_color">@android:color/white</color>
+    <color name="table_item_bg_select_color">#D80C18</color>
+    <color name="table_divider_color">#DCDCDC</color>
+
+    <color name="table_text_secondary_color">#727272</color>
+
+
+</resources>
